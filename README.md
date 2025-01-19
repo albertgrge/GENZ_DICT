@@ -4,7 +4,11 @@
 
 Your Gen Z Dictionary is a fun and interactive app designed to decode Gen Z slang, chatting shortcuts, emojis, and emoticons. Features include a Gen Z lexicon, English dictionary, quizzes, facts about Gen Z, and dark/light themes. Stay updated, bridge generational gaps, and explore modern communication!
 
-[**Download Now**](https://your-gen-z-dictionary.en.uptodown.com/android)
+[**Download Now!**](https://your-gen-z-dictionary.en.uptodown.com/android)
+
+![No cap bruh](https://github.com/user-attachments/assets/67b28b55-30b3-4751-b22d-efce93b877c7)
+
+
 
 ---
 
@@ -43,12 +47,17 @@ Your Gen Z Dictionary is a fun and interactive app designed to decode Gen Z slan
 - **Chatting Shortcuts Search**: Learn commonly used abbreviations and acronyms for better understanding of digital conversations.
 - **Emoji Translator**: Easily interpret emojis and their meanings to avoid miscommunication.
 - **Emoticon Translator**: Rediscover classic emoticons and understand their usage in modern contexts.
+  ![WhatsApp Image 2025-01-15 at 22 29 30_a7372161](https://github.com/user-attachments/assets/df4b6319-52db-4dc4-a81a-44c6e4186dd3)  
+
 
 ### 2. **Search Features**
 - Real-time search functionality.
 - Clear search results with cross icon.
 - "No results found" handling with suggestions.
 - Links to view all entries when no results are found.
+  
+  ![WhatsApp Image 2025-01-15 at 22 29 31_2ff996ad](https://github.com/user-attachments/assets/bb48f799-df7b-4e8c-9c6e-de8833760131)
+
 
 ### 3. **UI/UX Features**
 - Responsive design for all screen sizes.
@@ -59,6 +68,7 @@ Your Gen Z Dictionary is a fun and interactive app designed to decode Gen Z slan
 
 ### 4. **Interactive Quizzes**
 Test your knowledge of Gen Z culture and slang with entertaining quizzes.
+![WhatsApp Image 2025-01-15 at 22 29 32_f4ad8dd2](https://github.com/user-attachments/assets/a956bbed-13c2-4583-9030-361265c8e691)
 
 ### 5. **Contribute Your Words**
 Users can suggest new slang terms and contribute to the growing lexicon.
@@ -133,6 +143,8 @@ A dedicated section with animated slides featuring fun and intriguing facts abou
 - Phonetic pronunciations.
 - Usage examples.
 - Part of speech categorization.
+  ![WhatsApp Image 2025-01-15 at 22 29 32_201d44e7](https://github.com/user-attachments/assets/25f00490-e21f-4ca1-a52d-400526a4ae5e)
+
 
 ---
 
@@ -155,6 +167,8 @@ A dedicated section with animated slides featuring fun and intriguing facts abou
 - Optimized search algorithms.
 - Efficient state management.
 - Responsive design principles.
+
+![WhatsApp Image 2025-01-15 at 22 29 31_6e40f03d](https://github.com/user-attachments/assets/fecbf0e7-8eb7-4dbf-a74a-475548b4490c)
 
 ---
 
@@ -183,4 +197,6 @@ src/
 ---
 
 This app is a comprehensive language and communication tool that combines modern slang, traditional dictionary features, and communication shortcuts in a user-friendly interface. It's built with modern web technologies and follows best practices for performance, accessibility, and user experience.
+![Your paragraph text](https://github.com/user-attachments/assets/9365a191-80f1-4a4b-a911-fbd58b19c05e)
+
 
