@@ -33,7 +33,7 @@ src/
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [താളം]
 
 
 ### Team Members
