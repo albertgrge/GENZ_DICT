@@ -79,7 +79,7 @@ cd repo-name]
 For Software:
 
 # Screenshots (Add at least 3)
-![image alt](genz-lingo-lab - Google Chrome 09_08_2025 04_23_06.png).
+![image alt](https://github.com/albertgrge/GENZ_DICT/blob/main/genz-lingo-lab%20-%20Google%20Chrome%2009_08_2025%2004_22_21.png).
 
 [genz-lingo-lab - Google Chrome 09_08_2025 04_22_21.png]
 
