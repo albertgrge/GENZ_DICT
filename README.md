@@ -82,6 +82,7 @@ For Software:
 ![image alt](https://github.com/albertgrge/GENZ_DICT/blob/main/genz-lingo-lab%20-%20Google%20Chrome%2009_08_2025%2004_22_21.png).
 
 ![image alt](https://github.com/albertgrge/GENZ_DICT/blob/main/genz-lingo-lab%20-%20Google%20Chrome%2009_08_2025%2004_22_42.png).
+![image alt](https://github.com/albertgrge/GENZ_DICT/blob/main/genz-lingo-lab%20-%20Google%20Chrome%2009_08_2025%2004_22_51.png).
 
 
 
