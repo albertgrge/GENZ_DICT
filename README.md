@@ -34,7 +34,7 @@ src/
 
 
 ### Team Members
-- Team Lead: [Albert george] - [Goverment Engineering college Idukki]
+- Team Lead: Albert george - Goverment Engineering college Idukki
 
 
 ### Project Description
@@ -58,7 +58,7 @@ src/
 ## Technical Details
 ### Technologies/Components Used
 [For Software:
-Languages used: JavaScript, HTML, CSS]
+Languages used: Typescript,JavaScript, HTML, CSS]
 
 # Run
 # Clone the repository
