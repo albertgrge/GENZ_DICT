@@ -81,13 +81,7 @@ For Software:
 # Screenshots (Add at least 3)
 ![image alt](https://github.com/albertgrge/GENZ_DICT/blob/main/genz-lingo-lab%20-%20Google%20Chrome%2009_08_2025%2004_22_21.png).
 
-[genz-lingo-lab - Google Chrome 09_08_2025 04_22_21.png]
-
-[genz-lingo-lab - Google Chrome 09_08_2025 04_22_42.png]
-
-[genz-lingo-lab - Google Chrome 09_08_2025 04_22_51.png]
-
-[genz-lingo-lab - Google Chrome 09_08_2025 04_22_58.png]
+![image alt](https://github.com/albertgrge/GENZ_DICT/blob/main/genz-lingo-lab%20-%20Google%20Chrome%2009_08_2025%2004_22_42.png).
 
 
 
