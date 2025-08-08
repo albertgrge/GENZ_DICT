@@ -79,7 +79,7 @@ cd repo-name]
 For Software:
 
 # Screenshots (Add at least 3)
-![genz-lingo-lab - Google Chrome 09_08_2025 04_23_06.png]
+![image alt](genz-lingo-lab - Google Chrome 09_08_2025 04_23_06.png).
 
 [genz-lingo-lab - Google Chrome 09_08_2025 04_22_21.png]
 
