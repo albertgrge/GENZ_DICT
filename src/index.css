@@ -6,40 +6,40 @@
 
 @layer base {
   :root {
-    --background: 40 70% 96%;
-    --foreground: 20 50% 10%;
+    --background: 0 0% 100%; /* White background */
+    --foreground: 0 0% 7.1%; /* Dark gray for text */
 
-    --card: 0 0% 100%;
-    --card-foreground: 20 50% 10%;
+    --card: 0 0% 100%; /* White cards */
+    --card-foreground: 0 0% 7.1%; /* Dark gray text on cards */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 20 50% 10%;
+    --popover: 0 0% 100%; /* White popovers */
+    --popover-foreground: 0 0% 7.1%; /* Dark gray text on popovers */
 
     --primary: 252 59% 48%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 20 50% 96%;
-    --secondary-foreground: 20 50% 10%;
+    --secondary: 0 0% 96.1%; /* Light gray for secondary elements */
+    --secondary-foreground: 0 0% 9%; /* Darker gray text on secondary */
 
-    --muted: 20 50% 96%;
-    --muted-foreground: 20 40% 40%;
+    --muted: 0 0% 96.1%; /* Light gray for muted elements */
+    --muted-foreground: 0 0% 45.1%; /* Medium gray for muted text */
 
-    --accent: 20 50% 96%;
-    --accent-foreground: 20 50% 10%;
+    --accent: 0 0% 96.1%; /* Light gray for accent elements */
+    --accent-foreground: 0 0% 7.1%; /* Dark gray text on accent */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 20 50% 90%;
-    --input: 20 50% 90%;
-    --ring: 20 50% 10%;
+    --border: 0 0% 89.8%; /* Light gray border */
+    --input: 0 0% 89.8%; /* Light gray input border */
+    --ring: 0 0% 3.9%; /* Nearly black ring color */
 
     --radius: 0.5rem;
   }
 
   .dark {
     --background: 222.2 84% 4.9%;
-    --foreground: 20 50% 90%;
+    --foreground: 0 0% 98%; /* White text in dark mode */
 
     --card: 222.2 84% 4.9%;
     --card-foreground: 20 50% 90%;

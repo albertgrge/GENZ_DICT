@@ -44,7 +44,8 @@ const EMOTICON_DICTIONARY = [
   { emoticon: "(☞ ͡° ͜ʖ ͡°)☞", meaning: "Flirty or playful" },
   { emoticon: "(ノ﹏ヽ)", meaning: "Embarrassment or shyness" },
   { emoticon: "(¬▂¬)", meaning: "Annoyance or frustration" },
-  { emoticon: ":)", meaning: "Sentimental right now" }
+  { emoticon: ":)", meaning: "Sentimental right now" },
+  { emoticon: "( ͡❛ ͜ʖ ͡❛)", meaning: "Lenny Face with raised eyebrows" }
 ];
 
 export const EmoticonTranslator = () => {

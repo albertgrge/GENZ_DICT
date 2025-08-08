@@ -66,7 +66,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-bold">About Me</h3>
             <p className="text-gray-600">
-              Hello! I&apos;m Mahatir Ahmed Tusher, a passionate problem solver who spends his days immersed in code, 
+              Hello! I&apos;m Albert George, a passionate problem solver who spends his days immersed in code, 
               mathematical puzzles, and intellectual challenges. When I&apos;m not tangled in algorithms, you&apos;ll find me 
               exploring new places or gazing at the stars, marveling at the universe. Contact me on the following mail: mahatirtusher@gmail.com
             </p>
@@ -77,7 +77,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-bold">Acknowledgment</h3>
             <p className="text-gray-600">
-              I would like to express my heartfelt gratitude to Sharaf Wasima Raifa Siddiquee for her unwavering support 
+              I would like to express my heartfelt gratitude to Albert George for her unwavering support 
               and encouragement throughout the development of Gen Z Dictionary Version 2. Her insightful suggestions, 
               motivating words, and constant belief in my abilities played a pivotal role in pushing me to refine and 
               enhance the project. Without her encouragement, this version would not have come to life in the way it has. 
@@ -154,7 +154,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="mt-8 text-center text-gray-500 text-sm">
-          © 2025 Your Gen Z Dictionary. All rights reserved. Developed by Mahatir Ahmed Tusher
+          © 2025 Your Gen Z Dictionary. All rights reserved. Developed by Albert George
         </div>
       </div>
 

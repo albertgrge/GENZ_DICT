@@ -7,36 +7,36 @@ import { Link } from "react-router-dom";
 import { useToast } from "@/hooks/use-toast";
 
 const EMOJI_DICTIONARY = [
-  { emoji: "💀", meaning: "I'm dead (from laughter) or that's hilarious!" },
+  { emoji: "🤨", meaning: "Skepticism or questioning something" },
+  { emoji: "🫨", meaning: "Intense shock or emotional intensity" },
+  { emoji: "🙏", meaning: "Please, thank you, or prayer" },
+  { emoji: "🥵", meaning: "Hot (literally or figuratively)" },
+  { emoji: "🔥", meaning: "Something amazing, impressive, or 'lit'" },
+  { emoji: "😴", meaning: "Boredom or tiredness (often ironic)" },
+  { emoji: "🫶", meaning: "Showing love and support" },
+  { emoji: "👁️👄👁️", meaning: "Shock, surprise, or disbelief" },
+  { emoji: "👍", meaning: "Can be passive-aggressive or sarcastic" },
+  { emoji: "🤪", meaning: "Goofiness or being playful" },
+  { emoji: "💯", meaning: "Agreement, emphasis, or keeping it real" },
+  { emoji: "😅", meaning: "Nervous laughter or awkwardness" },
+  { emoji: "🤔", meaning: "Suspicion or side-eye" },
   { emoji: "😭", meaning: "Can express sadness or overwhelming laughter" },
-  { emoji: "😂", meaning: "Laughter (considered slightly outdated by Gen Z)" },
-  { emoji: "🥺", meaning: "Pleading, begging, or expressing cuteness" },
+  { emoji: "💀", meaning: "I'm dead (from laughter) or that's hilarious!" },
+  { emoji: "✨😭", meaning: "A bittersweet or emotional moment" },
   { emoji: "💅", meaning: "Sass, confidence, or 'that's the tea'" },
   { emoji: "✨", meaning: "Excitement, emphasis, or something magical" },
-  { emoji: "🔥", meaning: "Something amazing, impressive, or 'lit'" },
-  { emoji: "💯", meaning: "Agreement, emphasis, or keeping it real" },
-  { emoji: "👁️👄👁️", meaning: "Shock, surprise, or disbelief" },
-  { emoji: "🤡", meaning: "Self-deprecating humor or calling something foolish" },
-  { emoji: "🤨", meaning: "Skepticism or questioning something" },
-  { emoji: "🤔", meaning: "Suspicion or side-eye" },
-  { emoji: "😅", meaning: "Nervous laughter or awkwardness" },
-  { emoji: "🤪", meaning: "Goofiness or being playful" },
-  { emoji: "😴", meaning: "Boredom or tiredness (often ironic)" },
-  { emoji: "👍", meaning: "Can be passive-aggressive or sarcastic" },
-  { emoji: "🫶", meaning: "Showing love and support" },
-  { emoji: "🙏", meaning: "Please, thank you, or prayer" },
-  { emoji: "🫡", meaning: "Respect or taking one for the team" },
-  { emoji: "😡", meaning: "Playful anger or frustration" },
   { emoji: "🤯", meaning: "Shock or mind-blowing moments" },
-  { emoji: "😌", meaning: "Peaceful or satisfied feeling" },
-  { emoji: "🤤", meaning: "Craving or admiring something" },
-  { emoji: "😈", meaning: "Mischievousness or playful evil" },
-  { emoji: "🙄", meaning: "Sarcasm or annoyance" },
-  { emoji: "🥵", meaning: "Hot (literally or figuratively)" },
   { emoji: "🥶", meaning: "Cold or emotionally distant" },
-  { emoji: "🫨", meaning: "Intense shock or emotional intensity" },
+  { emoji: "🤡", meaning: "Self-deprecating humor or calling something foolish" },
+  { emoji: "😌", meaning: "Peaceful or satisfied feeling" },
+  { emoji: "🫡", meaning: "Respect or taking one for the team" },
   { emoji: "🫣", meaning: "Curiosity while being shy" },
-  { emoji: "✨😭", meaning: "A bittersweet or emotional moment" }
+  { emoji: "😈", meaning: "Mischievousness or playful evil" },
+  { emoji: "🤤", meaning: "Craving or admiring something" },
+  { emoji: "🙄", meaning: "Sarcasm or annoyance" },
+  { emoji: "🥺", meaning: "Pleading, begging, or expressing cuteness" },
+  { emoji: "😂", meaning: "Laughter (considered slightly outdated by Gen Z)" },
+  { emoji: "😡", meaning: "Playful anger or frustration" }
 ];
 
 export const EmojiSearch = () => {
@@ -45,6 +45,7 @@ export const EmojiSearch = () => {
   const { toast } = useToast();
 
   const handleSearch = (term: string) => {
+    console.log("Search Term:", term); // Debugging line
     setSearchTerm(term);
     if (term.trim() === "") {
       setResults([]);
@@ -54,6 +55,7 @@ export const EmojiSearch = () => {
     const filtered = EMOJI_DICTIONARY.filter((entry) =>
       entry.emoji.includes(term) || entry.meaning.toLowerCase().includes(term.toLowerCase())
     );
+    console.log("Filtered Results:", filtered); // Debugging line
     setResults(filtered);
 
     if (filtered.length === 0) {

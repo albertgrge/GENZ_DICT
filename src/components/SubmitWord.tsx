@@ -5,6 +5,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 
+const LOCAL_STORAGE_KEY = "genz_submitted_words";
+
 export const SubmitWord = () => {
   const [word, setWord] = useState("");
   const [definition, setDefinition] = useState("");
@@ -13,13 +15,38 @@ export const SubmitWord = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Word Submitted!",
-      description: "Thank you for contributing to the Gen Z Dictionary!",
-    });
-    setWord("");
-    setDefinition("");
-    setExample("");
+
+    const newEntry = { word, definition, example, timestamp: new Date().toISOString() };
+    let existingWords = [];
+
+    try {
+      const storedWords = localStorage.getItem(LOCAL_STORAGE_KEY);
+      if (storedWords) {
+        existingWords = JSON.parse(storedWords);
+      }
+    } catch (error) {
+      console.error("Error parsing words from localStorage:", error);
+    }
+
+    existingWords.push(newEntry);
+
+    try {
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(existingWords));
+      toast({
+        title: "Word Submitted!",
+        description: "Thank you for contributing! Your word has been saved locally in your browser.",
+      });
+      setWord("");
+      setDefinition("");
+      setExample("");
+    } catch (error) {
+      console.error("Error saving words to localStorage:", error);
+      toast({
+        title: "Submission Failed",
+        description: "There was an error saving your word locally. Please try again.",
+        variant: "destructive",
+      });
+    }
   };
 
   return (

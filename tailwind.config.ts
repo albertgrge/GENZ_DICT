@@ -59,6 +59,10 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+ },
+ instagram: {
+ start: '#f09433',
+ end: '#bc1888',
         },
       },
       keyframes: {
