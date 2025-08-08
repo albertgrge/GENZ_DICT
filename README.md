@@ -29,7 +29,7 @@ src/
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [GEN Z Dictionary ] 🎯
+# k,GEN Z Dictionary 🎯
 
 
 ## Basic Details
@@ -65,7 +65,7 @@ Languages used: JavaScript, HTML, CSS]
 
 # Run
 # Clone the repository
-[git clone https://github.com/username/repo-name.git
+[git clone https://github.com/albertgrge/GENZ_DICT.git
 cd repo-name]
 
 # Install Firebase CLI (if not already installed)
@@ -90,19 +90,6 @@ For Software:
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 
 
