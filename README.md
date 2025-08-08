@@ -4,7 +4,7 @@
 
 
 ## File Structure
-
+```
 
 src/
 ├── assets/          # Images, icons, and other static assets
@@ -25,7 +25,7 @@ src/
 └── App.tsx          # Root component
 
 
-
+```
 
 
 
