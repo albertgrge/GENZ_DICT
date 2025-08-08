@@ -30,7 +30,7 @@ src/
 
 ```
 
-# k,GEN Z Dictionary 🎯
+# GEN Z Dictionary 🎯
 
 
 ## Basic Details
