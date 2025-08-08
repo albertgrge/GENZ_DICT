@@ -30,7 +30,7 @@ src/
 
 
 ## Basic Details
-### Team Name: [താളം]
+### Team Name: താളം
 
 
 ### Team Members
@@ -49,10 +49,10 @@ src/
 (Note: ഇത് English words‌ക്ക് മാത്രമേ work ചെയ്യൂ — Malayalam type cheyyumbol sorry 😅✌️)]
 
 ### test
-[1. Gen Z Terms- rizz]
-[2. Search Chatting Shortcuts- idk]
-[3. Emoji Translator-😙]
-[4. Emoticon Translator-^_^]
+[1. Gen Z Terms- rizz].
+[2. Search Chatting Shortcuts- idk].
+[3. Emoji Translator-😙].
+[4. Emoticon Translator-^_^].
 
 
 ## Technical Details
