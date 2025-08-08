@@ -80,9 +80,13 @@ For Software:
 
 # Screenshots (Add at least 3)
 ![genz-lingo-lab - Google Chrome 09_08_2025 04_23_06.png]
+
 [genz-lingo-lab - Google Chrome 09_08_2025 04_22_21.png]
+
 [genz-lingo-lab - Google Chrome 09_08_2025 04_22_42.png]
+
 [genz-lingo-lab - Google Chrome 09_08_2025 04_22_51.png]
+
 [genz-lingo-lab - Google Chrome 09_08_2025 04_22_58.png]
 
 
