@@ -79,14 +79,12 @@ cd repo-name]
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![genz-lingo-lab - Google Chrome 09_08_2025 04_23_06.png]
+[genz-lingo-lab - Google Chrome 09_08_2025 04_22_21.png]
+[genz-lingo-lab - Google Chrome 09_08_2025 04_22_42.png]
+[genz-lingo-lab - Google Chrome 09_08_2025 04_22_51.png]
+[genz-lingo-lab - Google Chrome 09_08_2025 04_22_58.png]
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
 
 
